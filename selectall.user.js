@@ -14,7 +14,7 @@
 
     // Function to click visible checkboxes
     function clickVisibleCheckboxes() {
-        const checkboxes = document.querySelectorAll('div.sc-fqkvVR.ccTjGz[data-cy="icon-checkbox"]');
+        const checkboxes = document.querySelectorAll('div.sc-gEvEer.eHyqEP[data-cy="icon-checkbox"]');
         checkboxes.forEach(checkbox => {
             checkbox.click();
         });
@@ -24,7 +24,7 @@
     // Function to scroll and click checkboxes
     function scrollAndClickCheckboxes() {
         // Select the scrolling container of the checkboxes
-        const scrollContainer = document.querySelector('div[aria-label="grid"][aria-readonly="true"].ReactVirtualized__Grid.ReactVirtualized__List.sc-krNlru.dCxHXg');
+        const scrollContainer = document.querySelector('div[aria-label="grid"][aria-readonly="true"].ReactVirtualized__Grid.ReactVirtualized__List.sc-ibQAlb.dIqCbV');
 
         if (!scrollContainer) {
             console.error("Scrolling container not found!");
@@ -51,7 +51,7 @@
 
     // Function to click all checkboxes
     function clickAllCheckboxes() {
-        const checkboxes = document.querySelectorAll('div.sc-fqkvVR.ccTjGz[data-cy="icon-checkbox"]');
+        const checkboxes = document.querySelectorAll('div.sc-gEvEer.eHyqEP[data-cy="icon-checkbox"]');
         checkboxes.forEach(checkbox => {
             checkbox.click();
         });
@@ -79,7 +79,7 @@
 
     // Function to show or hide button based on the presence of the modal
     function toggleButtonVisibility() {
-        const modal = document.querySelector('.ReactModal__Content.ReactModal__Content--after-open.sc-kdBSHD.evbtZr');
+        const modal = document.querySelector('.ReactModal__Content.ReactModal__Content--after-open.sc-fXSgeo.dGOmlZ');
         button.style.display = modal ? "block" : "none";
     }
 
