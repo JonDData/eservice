@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Site Select All
 // @namespace    DDI Jon
-// @version      1.2
+// @version      1.3
 // @description  Select all sites under the locations
 // @author       You
 // @match        https://client.restaurantpos.spoton.com/b/
